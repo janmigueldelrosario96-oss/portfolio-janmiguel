@@ -876,9 +876,19 @@ color changes in some parts of the website, in light theme
       order: 2;
       justify-self: center;
       margin-inline: auto;
+      margin-bottom: 1.5rem;
+    }
+
+    .home-social {
+      order: 3;
+      display: flex;
+      justify-content: center;
+      gap: 1.25rem;
+      width: 100%;
     }
 
     .home-data {
+      order: 4;
       grid-column: initial;
     }
 
