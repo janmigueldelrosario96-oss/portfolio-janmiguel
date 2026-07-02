@@ -867,7 +867,19 @@ color changes in some parts of the website, in light theme
     }
 
     .home-container {
+      grid-template-columns: 1fr;
       column-gap: 3rem;
+      justify-items: center;
+    }
+
+    .home-img-wrapper {
+      order: 2;
+      justify-self: center;
+      margin-inline: auto;
+    }
+
+    .home-data {
+      grid-column: initial;
     }
 
     .section-title {
